@@ -242,4 +242,8 @@
     .talk {
         margin-bottom: 12px;
     }
+
+    .about__description {
+        text-align: center;
+    }
 }
