@@ -277,8 +277,7 @@ span {
 
 .check-list {
     margin: 0;
-    /* padding-left: 1.2rem; */
-  }
+}
   
   .check-list li {
     position: relative;

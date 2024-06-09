@@ -155,6 +155,10 @@
         justify-content: center;
     }
 
+    .apple-img {
+        display: none;
+    }
+
     .about__container {
         display: grid;
     }
@@ -201,6 +205,10 @@
 
     .home {
         margin-top: 20px;
+    }
+
+    .home-img {
+        order: 1;
     }
 
     .btn-header {
