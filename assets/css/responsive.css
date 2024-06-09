@@ -111,6 +111,10 @@
         max-width: 400px;
         height: auto;
     }
+
+    .btns-home {
+        margin-top: 10px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -149,10 +153,14 @@
         text-align: center;
     }
 
-    .social-media-buttons {
-        margin-top: 60px;
+    .btns-home {
+        margin-top: 20px;
         align-items: center;
         justify-content: center;
+    }
+
+    .method {
+        margin-bottom: -40px;
     }
 
     .apple-img {
@@ -181,6 +189,14 @@
 
     .contact-text span {
         text-align: center !important;
+    }
+
+    .footer {
+        margin-top: 72px;
+    }
+
+    #footer_items {
+        padding-top: 60px;
     }
 }
 
