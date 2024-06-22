@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
 
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
 
     <!-- ICONS -->
@@ -30,13 +33,13 @@
         <ul class="navlist">
             <li class="nav-item"><a href="#home" class="active">Home</a></li>
             <li class="nav-item"><a href="#about">Sobre</a></li>
-            <li class="nav-item"><a href="#services">Serviços</a></li>
             <li class="nav-item"><a href="#reviews">Depoimentos</a></li>
+            <li class="nav-item"><a href="#services">Serviços</a></li>
             <li class="nav-item"><a href="#ebooks">Ebooks</a></li>
         </ul>
 
         <button class="btn-default btn-header">
-            Fale comigo
+            <a style="color: var(--bg-color);" href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F5522997605990&e=AT28Lx6MvLLcLz86r9IuzO9FqTdb5e7aQecK0ZZ9BwwQTh44YhAY8d6zn0VmuC8cC12foPg1Kt7scY_cMEuOta8UVN6I8DWc3cKFaVGlEcqWzbGL7WLYvw" target="_blank">Fale comigo</a>
         </button>
         
         <div class="nav-icons">
@@ -49,9 +52,9 @@
         <div class="home-text">
             <h2><span class="auto-type"></span></h2>
             <!-- <h2>Seja bem-vinda ao meu perfil!</h2> -->
-             <p>Deixa eu adivinhar por que clicou aqui: está cansada de fazer dietas, <b>de ficar nessa busca incessante para emagrecer sem resultados significativos</b>, fica no efeito sanfona, está com metabolismo lento, exames estão alterados, está sofrendo com a  menopausa, ansiedade, depressão, está perdida e/ou não sabe por onde começar? </p>
+             <p>Deixa eu adivinhar por que clicou aqui: está cansada de fazer dietas, <b>de ficar nessa busca incessante para emagrecer sem resultados significativos</b>, está sempre no efeito sanfona, com metabolismo lento, exames estão alterados, está sofrendo com a  menopausa, ansiedade, depressão, está perdida e/ou não sabe por onde começar? </p>
              <h4>A <span>Nutri</span> pode te ajudar!</h4>
-            <a href="#" class="btn talk"><i class='bx bxl-whatsapp'></i>Fale Comigo!</a>
+            <a class="btn" href="https://api.whatsapp.com/send/?phone=5522997605990&text&type=phone_number&app_absent=0" target="_blank"></i>Fale Comigo!</a>
             <a href="#" class="btn2"><i class='bx bx-down-arrow-alt'></i>Saiba Mais</a>
         </div>
 
@@ -60,7 +63,7 @@
         </div>
 
         <div class="social-media-buttons btns-home">
-            <a href="#">
+            <a href="https://www.instagram.com/aline.negreirosnutri/" target="_blank">
                 <i class='bx bxl-instagram'></i>
             </a>
             <a href="#">
@@ -79,17 +82,17 @@
         <div class="about__container" style="margin-top: 72px;">
             
             <div class="about__data">
-                <p class="about__description" style="font-size: 1.1rem !important; line-height: 28px;">Eu criei um método ÚNICO de programas nutricionais: desinflame, reprograme e transforme, de acordo com seu objetivo e individualidades. O <span>grande diferencial nesses programas é o meu acompanhamento PREMIUM.</span> A nutri fica coladinha, dando o apoio e suporte em todo seu processo. Aqui você terá resultados rápidos, com saúde, sem enrolações, com ESTRATÉGIAS NUTRICIONAIS CERTAS para você.
+                <p class="about__description" style="font-size: 1.1rem !important; line-height: 28px;">Eu criei um método ÚNICO de programas nutricionais: desinflame, reprograme e transforme! Os programas são realizados  de acordo com seu objetivo e individualidades. O grande diferencial é o acompanhamento de forma humanizada e empática. Você terá apoio e suporte em todo seu processo. <span>Aqui você terá resultados rápidos, com saúde, sem enrolações, com ESTRATEGIAS NUTRICIONAIS CERTAS para você. </span>
                 </p>
 
                     <div style="margin-top: 32px; margin-bottom: 36px;">
                         <ul class="check-list">
-                          <li>Já ajudei centenas de mulheres a emagrecerem, de forma simples, econômica e sem passar fome; </li>
-                          <li>Não acredito em restrições, em comidas e alimentos mirabolantes;</li>
-                          <li>A nutrição que eu acredito é com comida de verdade e dentro da sua rotina.</li>
+                          <li>Os programas já ajudaram centenas de mulheres a emagrecerem de forma simples, econômica e sem passar fome;</li>
+                          <li>Não acredito em restrições e em alimentos mirabolantes;</li>
+                          <li>A nutrição que eu acredito é com comida de verdade, respeitando as individualidade e  dentro da sua rotina.</li>
                         </ul>
                     </div>
-                <a href="#" class="btn talk"><i class='bx bxl-whatsapp'></i>Quero conhecer!</a>
+                <a href="https://api.whatsapp.com/send/?phone=5522997605990&text&type=phone_number&app_absent=0" target="_blank" class="btn"></i>Quero conhecer!</a>
             </div>
 
             <img src="./assets/img/apple.png" alt="" class="about__img apple-img">
@@ -105,13 +108,14 @@
             <img src="./assets/img/about.jpg" alt="" class="about__img">
         
             <div class="about__data">
-                <p class="about__description">Olá!! Sou Aline Negreiros, nutricionista com quase 2 décadas de profissão e também <b>naturopata</b>. Pós graduada em Nutrição Clínica, Funcional, Ortomolecular e Fitoterapia, <b>Acredito na comida de verdade e meios naturais para tratar a raíz dos problemas e não sintomas.</b> Por isso escolhi estudar Naturopatia e Fitoterapia.<br><br>
+                <p class="about__description">
+                Olá!! Sou Aline Negreiros, nutricionista com quase 2 décadas de profissão. Pós graduada em Nutrição Clínica, Funcional, Ortomolecular e Fitoterapia. Aqui tratamos a raiz do problema e não sintomas, através da Nutrição que eu acredito: <b>simples, pratica e com comida de verdade.</b> Associando junto ao seu tratamento nutricional meios naturais  para potencializar os resultados. Por isso resolvi estudar também <b>Naturopatia, Aromaterapia e Fitoterapia.</b><br><br>
                     
-                Atualmente, estou me especializando em Nutrição na Saúde da Mulher e Nutrição Esportiva, visando aprimorar minhas habilidades e oferecer um suporte mais eficaz à minha equipe.<br><br>
+                Atualmente, estou me especializando em Nutrição na saúde da mulher e Nutrição Esportiva, para poder ajudar de forma mais assertiva meu time.<br><br>
 
-                O meu coração pulsa em <b>ajudar mulheres a transformarem suas vidas</b>. Melhorar a saúde com um todo, aumentar auto estima, ajudar a blindar a mente, mudar o comportamento em relação a comida, ter consciência nutricional, ficar em paz com seu corpo, saber fazer boas escolhas alimentares e comer sem culpa. <br><br>
+                O meu coração pulsa em ajudar mulheres a transformarem suas vidas. Aumentando a auto-estima, melhorando o comportamento em relação a comida, a consciência nutricional  a ficar em paz com seu corpo, aprendendo a fazer boas escolhas alimentares, <b>comer sem culpa e assim melhorando a qualidade de vida.</b><br><br>
 
-                <b>Minha missão:</b> ajudar mulheres alçarem a melhor versão e melhorar a qualidade de vida através de mudanças nos padrões alimentares e no estilo de vida, aplicando estratégias nutricionais individualizadas e respeitado cada ser.
+                <b>Minha missão:</b> ajudar mulheres alçarem a melhor versão e melhorar a qualidade de vida através de mudanças nos padrões alimentares e no estilo de vida, aplicando estratégias nutricionais individualizadas e respeitado cada ser. Tudo isso de forma simples, prática e natural. Ensinar as mulheres a terem liberdade nutricional, através dos meus ensinamentos dentro do programa nutricional.
 
                 </p>
 
@@ -137,8 +141,8 @@
 
     <!-- GOALS -->
     <section class="about section container" id="about">
-        <h2 class="section__title">Algum desses é o seu objetivo?</h2>
-        <span class="section__subtitle">Então com certeza eu posso te ajudar!</span>
+        <h2 class="section__title">Sou sua última Nutri</h2>
+        <span class="section__subtitle">Se ainda tem dúvidas, dê uma olhada nesses resultados:</span>
 
         <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
             <div id="dishes">
@@ -203,53 +207,13 @@
                 </div>
             </div>
 
-            <div style="margin-top: 48px;">
-                <a href="#" class="btn talk"><i class='bx bxl-whatsapp'></i>Falar com a Nutri!</a>
+            <h4 style="font-size: 24px; margin-top: 42px;">Algum desses é o seu objetivo?</h4>
+            <span class="section__subtitle">Então com certeza eu posso te ajudar!</span>
+
+            <div style="margin-top: 6px;">
+                <a href="https://api.whatsapp.com/send/?phone=5522997605990&text&type=phone_number&app_absent=0" target="_blank" class="btn"></i>Falar com a Nutri!</a>
             </div>
 
-        </div>
-    </section>
-
-    <!-- SERVICES -->
-    <section class="container" id="services">
-        <div>
-          <h2 class="section__title">Serviços</h2>
-          <span class="section__subtitle"><b>Atendimento 100% online: </b>Receba orientação nutricional personalizada onde quer que você esteja.</span>
-        </div>
-        <div class="row">
-          <div class="column">
-            <div class="card">
-              <div class="icon-wrapper">
-                <i class='bx bx-food-menu'></i>
-              </div>
-              <h3 class="service-title">Consultoria</h3>
-              <p class="service-description">
-                Descubra como alcançar e manter o peso ideal com um plano nutricional personalizado e com base em uma abordagem que combina nutrição funcional, ortomolecular e fitoterapia para promover uma perda de peso saudável e sustentável.
-              </p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <div class="icon-wrapper">
-                <i class='bx bx-bowl-hot'></i>
-              </div>
-              <h3 class="service-title">Nutrição para Mulheres na Menopausa</h3>
-              <p class="service-description">
-                Receba orientação especializada para enfrentar os desafios nutricionais da menopausa. Pplanos alimentares ajustados para aliviar sintomas, melhorar a qualidade de vida e equilibrar hormônios, ajudando você a se sentir bem durante essa fase.
-              </p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <div class="icon-wrapper">
-                <i class='bx bx-body'></i>
-              </div>
-              <h3 class="service-title">Nutrição Esportiva e Metabólica</h3>
-              <p class="service-description">
-                Maximize seu desempenho físico e otimize seu metabolismo com um programa de nutrição esportiva personalizado. Ideal para mulheres que buscam melhorar sua performance atlética ou simplesmente adotar um estilo de vida mais ativo e saudável.
-              </p>
-            </div>
-          </div>            
         </div>
     </section>
 
@@ -260,71 +224,74 @@
             <span class="section__subtitle">O que meus pacientes dizem sobre meu serviço</span>
         </div>
 
-        <div class="center">
-            <div class="carousel-wrapper">
-              <!-- abstract radio buttons for slides -->
-              <input id="slide1" type="radio" name="controls" checked="checked" />
-              <input id="slide2" type="radio" name="controls" />
-              <input id="slide3" type="radio" name="controls" />
-              <input id="slide4" type="radio" name="controls" />
-              <input id="slide5" type="radio" name="controls" />
-          
-              <!-- navigation dots -->
-              <label for="slide1" class="nav-dot"></label>
-              <label for="slide2" class="nav-dot"></label>
-              <label for="slide3" class="nav-dot"></label>
-              <label for="slide4" class="nav-dot"></label>
-              <label for="slide5" class="nav-dot"></label>
-          
-              <!-- arrows -->
-              <label for="slide1" class="left-arrow"> < </label>
-              <label for="slide2" class="left-arrow"> < </label>
-              <label for="slide3" class="left-arrow"> < </label>
-              <label for="slide4" class="left-arrow"> < </label>
-              <label for="slide5" class="left-arrow"> < </label>
-          
-              <label for="slide1" class="right-arrow"> > </label>
-              <label for="slide2" class="right-arrow"> > </label>
-              <label for="slide3" class="right-arrow"> > </label>
-              <label for="slide4" class="right-arrow"> > </label>
-              <label for="slide5" class="right-arrow"> > </label>
-          
-              <div class="carousel">
-                <ul>
-                  <li>
-                    <img src="./assets/img/prints/print-1.jpeg" />
-                  </li>
-                  <li>
-                    <img src="./assets/img/prints/print-2.jpeg" />
-                  </li>
-                  <li>
-                    <img src="./assets/img/prints/print-3.jpeg" />
-                  </li>
-                  <li>
-                    <img src="./assets/img/prints/print-4.jpeg" />
-                  </li>
-                  <li>
-                    <img src="./assets/img/prints/print-5.jpeg" />
-                  </li>
-                  <li>
-                    <img src="./assets/img/prints/print-6.jpeg" />
-                  </li>
-                  <li>
-                    <img src="./assets/img/prints/print-7.jpeg" />
-                  </li>
-                  <li>
-                    <img src="./assets/img/prints/print-8.jpeg" />
-                  </li>
-                  <li>
-                    <img src="./assets/img/prints/print-9.jpeg" />
-                  </li>
-                  <li>
-                    <img src="./assets/img/prints/print-10.jpeg" />
-                  </li>
-                </ul>
-              </div>
+        <div class="collection" style="margin-top: 56px;">
+            <div class="swiper mySwiper">
+               <div class="swiper-wrapper">
+                  <div class="content swiper-slide">
+                     <img src="./assets/img//prints/print-1.jpeg" alt="">
+                  </div>
+
+                  <div class="content swiper-slide">
+                     <img src="./assets/img//prints/print-2.jpeg" alt="">
+                  </div>
+
+                  <div class="content swiper-slide">
+                     <img src="./assets/img//prints/print-3.jpeg" alt="">
+                  </div>
+
+                  <div class="content swiper-slide">
+                     <img src="./assets/img//prints/print-4.jpeg" alt="">
+                  </div>
+
+                  <div class="content swiper-slide">
+                     <img src="./assets/img//prints/print-5.jpeg" alt="">
+                  </div>
+
+                  <div class="content swiper-slide">
+                     <img src="./assets/img//prints/print-6.jpeg" alt="">
+                  </div>
+
+                  <div class="content swiper-slide">
+                    <img src="./assets/img//prints/print-7.jpeg" alt="">
+                 </div>
+
+                 <div class="content swiper-slide">
+                    <img src="./assets/img//prints/print-8.jpeg" alt="">
+                 </div>
+
+                 <div class="content swiper-slide">
+                    <img src="./assets/img//prints/print-9.jpeg" alt="">
+                 </div>
+
+                 <div class="content swiper-slide">
+                    <img src="./assets/img//prints/print-10.jpeg" alt="">
+                 </div>
+
+                 <div class="content swiper-slide">
+                    <img src="./assets/img//prints/print-11.jpeg" alt="">
+                 </div>
+
+                 <div class="content swiper-slide">
+                    <img src="./assets/img//prints/print-12.jpeg" alt="">
+                 </div>
+
+                 <div class="content swiper-slide">
+                    <img src="./assets/img//prints/print-13.jpeg" alt="">
+                 </div>
+
+                 <div class="content swiper-slide">
+                    <img src="./assets/img//prints/print-14.jpeg" alt="">
+                 </div>
+
+                 <div class="content swiper-slide">
+                    <img src="./assets/img//prints/print-15.jpeg" alt="">
+                 </div>
+
+               </div>
             </div>
           </div>
+
+
 
         <!-- <div class="review-content">
             <div class="box">
@@ -395,6 +362,49 @@
         </div> -->
     </section>
 
+    <!-- SERVICES -->
+    <section class="container" id="services">
+        <div>
+          <h2 class="section__title">Serviços</h2>
+          <span class="section__subtitle"><b>Atendimento 100% online: faça um acompanhamento nutricional de qualidade sem sair de casa.</span>
+        </div>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class='bx bx-food-menu'></i>
+              </div>
+              <h3 class="service-title">Programas Nutricionais</h3>
+              <p class="service-description">
+                Alcance seu peso ideal e resgate sua saúde  com plano alimentar individualizado, com base em uma abordagem simples e prática, combinando a nutrição funcional, ortomolecular e fitoterapia. Estratégias Nutricionais certas para você alcançar seus objetivos. 
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class='bx bx-bowl-hot'></i>
+              </div>
+              <h3 class="service-title">Nutrição para Mulheres na Menopausa</h3>
+              <p class="service-description">
+                Receba orientação especializada para enfrentar os desafios nutricionais da menopausa. Planos alimentares ajustados para aliviar sintomas, melhorar a qualidade de vida e equilibrar hormônios, ajudando você a se sentir bem durante essa fase.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class='bx bx-body'></i>
+              </div>
+              <h3 class="service-title">Nutrição Esportiva</h3>
+              <p class="service-description">
+                Maximize seu desempenho físico e otimize seu metabolismo com um programa de nutrição esportiva personalizado.
+              </p>
+            </div>
+          </div>            
+        </div>
+    </section>
+
     <!-- EBOOKS -->
     <section class="ebooks container" id="ebooks">
         <div class="middle-text">
@@ -406,7 +416,7 @@
             <div class="row2">
                 <img src="./assets/img/ebooks/01.png" alt="">
                 <h3>Iniciando Jejum Intermitente</h3>
-                <p style="font-size: .7rem; line-height: 20px;">O jejum intermitente tem inúmeros benefícios para saúde, já comprovados cientificamente. Por isso elaborei esse E-book de maneira prática para ajudar mais pessoas com essa estratégia.</p>
+                <p style="font-size: .7rem; line-height: 20px;">Vocês conhecem os benefícios do jejum intermitente? São vários beneficios para nossa saúde e já comprovados cientificamente. Eu elaborei esse Ebook  de forma simples e prática para ajudar mais pessoas a conhecerem essa estratégia, não só para ajudar no emagrecimento,  mas para melhorar o metabolismo da glicose, controlar a pressão arterial, controlar a fome e a saciedade, melhorar a saúde intestinal, compulsão por doces, etc.</p>
 
                 <div class="in-text">
 
@@ -545,12 +555,12 @@
     <!-- CONTACT -->
     <section class="contact container" id="contact">
 
-        <div class="contact-text">
+        <div class="contact-text" >
             <h2 class="section__title" style="margin-bottom: 16px;"><span style="color: #617559 !important;" class="auto-type2"></span></h2>
-            <span class="section__subtitle" style="text-align: left;">Agende sua consulta e descubra como a alimentação<br> certa pode mudar sua vida.
+            <span class="section__subtitle">Fale com sua ultima Nutri e descubra que é mais simples do que você pensa. Comece agora e transforme sua vida para sempre.
             </span>
     
-            <a href="#" class="btn3"><i class='bx bxl-whatsapp'></i>Entrar em Contato!</a>
+            <a href="https://api.whatsapp.com/send/?phone=5522997605990&text&type=phone_number&app_absent=0" target="_blank" class="btn"></i>Entrar em Contato!</a>
         </div>
 
         <div class="contact-img">
@@ -572,7 +582,7 @@
             <img src="./assets/img/logo.png" alt="" width="175px">
 
             <div class="social-media-buttons">
-                <a href="#">
+                <a href="https://www.instagram.com/aline.negreirosnutri/" target="_blank">
                     <i class='bx bxl-instagram'></i>
                 </a>
                 <a href="#">
@@ -606,11 +616,37 @@
 
     <script>
         var typed = new Typed(".auto-type2",{
-        strings : ["Revitalize Sua Alimentação"],
-        typeSpeed : 50,
-        backSpeed : 50,
+        strings : ["Desinflame e reprograme seu corpo para o seu objetivo através da alimentação."],
+        typeSpeed : 25,
+        backSpeed : 25,
         looped : true
         })
     </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    loop:true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 150,
+    modifier: 2.5,
+    slideShadows: true,
+    },
+    autoplay:{
+ 
+    delay:3000,
+    disableOnInteraction:false,
+    }
+ 
+ });
+ </script>
 </body>
 </html>

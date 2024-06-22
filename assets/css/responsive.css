@@ -187,8 +187,9 @@
         align-items: center;
     }
 
+    .contact-text h2,
     .contact-text span {
-        text-align: center !important;
+        text-align: center;
     }
 
     .footer {
@@ -230,6 +231,10 @@
     .btn-header {
         display: none;
     }
+
+    .collection .content {
+        width: 20rem;
+    }
 }
 
 @media (max-width: 400px) {
@@ -245,5 +250,11 @@
 
     .about__description {
         text-align: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .collection .content {
+        width: 18rem;
     }
 }
